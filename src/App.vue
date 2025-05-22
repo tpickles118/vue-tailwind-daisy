@@ -1,47 +1,24 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import NavBarTest from './components/NavBarTest.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <NavBarTest />
+  <!-- 
+  <div class="flex">
+    <input type="text" placeholder="Enter a message to display" />
+    <button class="btn btn-xl">Click Me</button>
+  </div>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <div class="flex">
+    <div class="w-14 flex-none ...">01</div>
+    <div class="w-64 flex-1 ...">02</div>
+    <div class="w-32 flex-1 ...">03</div>
+  </div>
 
-  <main>
-    <TheWelcome />
-  </main>
+  <button class="bg-blue-500 ...">Button A</button>
+  <button class="bg-cyan-500 ...">Button B</button>
+  <button class="bg-pink-500 ...">Button C</button> -->
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<style scoped></style>
