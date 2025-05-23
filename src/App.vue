@@ -1,24 +1,17 @@
 <script setup>
 import NavBarTest from './components/NavBarTest.vue'
+import RouterTest from './components/RouterTest.vue'
 </script>
 
 <template>
   <NavBarTest />
-  <!-- 
-  <div class="flex">
-    <input type="text" placeholder="Enter a message to display" />
-    <button class="btn btn-xl">Click Me</button>
-  </div>
+  <div class="flex flex-col items-center justify-center h-screen">
+    <h1 class="text-3xl font-bold mb-4">Home Page</h1>
+    <p class="text-lg">This is the home page</p>
+    <hr />
 
-  <div class="flex">
-    <div class="w-14 flex-none ...">01</div>
-    <div class="w-64 flex-1 ...">02</div>
-    <div class="w-32 flex-1 ...">03</div>
+    <RouterTest />
   </div>
-
-  <button class="bg-blue-500 ...">Button A</button>
-  <button class="bg-cyan-500 ...">Button B</button>
-  <button class="bg-pink-500 ...">Button C</button> -->
 </template>
 
 <style scoped></style>
